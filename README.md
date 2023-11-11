@@ -1,84 +1,75 @@
-# Solidity, Blockchain, and Smart Contract Course
+# Web3, Full Stack Solidity, Smart Contract & Blockchain — Javascript Edition
 
-Welcome to the Solidity, Blockchain, and Smart Contract course! This comprehensive learning journey will guide you through the fundamental concepts of blockchain, hands-on experience with Solidity, and the development of various smart contracts. Whether you're a beginner or an experienced developer, this course is designed to equip you with the skills needed to build decentralized applications.
+Welcome to the repository for the Ultimate Web3, Full Stack Solidity, and Smart Contract - Javascript Edition!
 
-## Table of Contents
+All code references have both a javascript and a typescript edition.
 
-1. [Blockchain Basics](#lesson-1-blockchain-basics)
-2. [Welcome to Remix! Simple Storage](#lesson-2-welcome-to-remix-simple-storage)
-3. [Remix Storage Factory](#lesson-3-remix-storage-factory)
-4. [Remix Fund Me](#lesson-4-remix-fund-me)
-5. [Ethers.js Simple Storage](#lesson-5-ethersjs-simple-storage)
-6. [Hardhat Simple Storage](#lesson-6-hardhat-simple-storage)
-7. [Hardhat Fund Me](#lesson-7-hardhat-fund-me)
-8. [HTML / Javascript Fund Me (Full Stack / Front End)](#lesson-8-html--javascript-fund-me-full-stack--front-end)
-9. [Hardhat Smart Contract Lottery](#lesson-9-hardhat-smart-contract-lottery)
-10. [NextJS Smart Contract Lottery (Full Stack / Front End)](#lesson-10-nextjs-smart-contract-lottery-full-stack--front-end)
-11. [Hardhat Starter Kit](#lesson-11-hardhat-starter-kit)
-12. [Hardhat ERC20s](#lesson-12-hardhat-erc20s)
-13. [Hardhat DeFi & Aave](#lesson-13-hardhat-defi--aave)
-14. [Hardhat NFTs](#lesson-14-hardhat-nfts)
-15. [NextJS NFT Marketplace (Full Stack / Front End)](#lesson-15-nextjs-nft-marketplace-full-stack--front-end)
-16. [Hardhat Upgrades](#lesson-16-hardhat-upgrades)
-17. [Hardhat DAOs](#lesson-17-hardhat-daos)
-18. [Security & Auditing](#lesson-18-security--auditing)
+Recommended Testnet: Sepolia
 
-## Lessons Overview
+_We have updated the repos to work with Sepolia due to Rinkeby and Kovan being sunset, and Goerli being a disaster. Let us know if any of the changes break stuff!_
 
-### Lesson 1: Blockchain Basics
-Explore the foundational concepts of blockchain technology, understanding its decentralized nature and cryptographic principles.
+# [Testnet Faucets](https://faucets.chain.link)
 
-### Lesson 2: Welcome to Remix! Simple Storage
-Get hands-on experience with Remix, a powerful Solidity IDE, by creating a simple storage smart contract.
+Main Faucet:<a href="https://faucets.chain.link" target="_blank"> https://faucets.chain.link</a>
+Backup Faucet:<a href="https://sepoliafaucet.com/" target="_blank"> https://sepoliafaucet.com/</a>
 
-### Lesson 3: Remix Storage Factory
-Extend your Remix skills by developing a storage factory using Solidity.
+> ⚠️ All code associated with this course is for demo purposes only. They have not been audited and should not be considered production ready. Please use at your own risk.
 
-### Lesson 4: Remix Fund Me
-Dive into Remix to create a Fund Me smart contract, exploring the financial aspects of smart contracts.
+# Table of Contents
 
-### Lesson 5: Ethers.js Simple Storage
-Learn to interact with the Ethereum blockchain using Ethers.js and implement a simple storage smart contract.
+<details>
+<summary>Resources</summary>
+<ol>
+<li><a href="#testnet-faucets">Testnet Faucets</a></li>
+<li><a href="#resources-for-this-course">Resources For This Course</a><ul>
+<li><a href="#questions">Questions</a></li>
+</ul>
+</li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+</ol>
+</details>
 
-### Lesson 6: Hardhat Simple Storage
-Discover the Hardhat development environment and create a simple storage smart contract.
+<details>
+<summary> <a href="#lesson-0-the-edge-of-the-rabbit-hole">Lesson 0: The Edge of the Rabbit Hole</a></summary>
+<ol>
+  <li>
+  <a href="#welcome-to-the-course">Welcome to the course!</a>
+  </li>
+  <li>
+  <a href="#best-practices">Best Practices</a>
+  </li>
+</ol>
+</details>
 
-### Lesson 7: Hardhat Fund Me
-Extend your Hardhat knowledge by implementing a Fund Me smart contract.
+# Lesson 0: The Edge of the Rabbit Hole
 
-### Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)
-Explore full-stack development by integrating HTML and JavaScript to create a front-end for your Fund Me smart contract.
+## Welcome to the course!
 
-### Lesson 9: Hardhat Smart Contract Lottery
-Dive into the world of decentralized finance by creating a smart contract lottery using Hardhat.
+_[⌨️ (00:00:00) Lesson 0: Welcome To Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=0s)_
 
-### Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)
-Combine smart contracts with NextJS to build a full-stack decentralized lottery application.
+## Best Practices
 
-### Lesson 11: Hardhat Starter Kit
-Explore the Hardhat Starter Kit to accelerate your smart contract development.
+- **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
+- **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
+- **Learn at your own pace:** It doesn't matter if it takes you a day, a week, a month or even a year. Progress >>> Perfection
+- **Take Breaks:** You will exhaust your mind and recall less if you go all out and watch the entire course in one sitting.
+  **Suggested Strategy** every 25 minutes take a 5 min break, and every 2 hours take a longer 30 min break
+- **Refer to Documentation:** Things are constantly being updated, so whenever Patrick opens up some documentation, open it your end and maybe even have the code sample next to you.
 
-### Lesson 12: Hardhat ERC20s
-Learn about the ERC20 standard and implement ERC20 tokens using the Hardhat framework.
+# Lesson 1: Blockchain Basics
 
-### Lesson 13: Hardhat DeFi & Aave
-Explore decentralized finance (DeFi) concepts and integrate Aave protocol into your smart contracts.
+_[⌨️ (00:09:05) Lesson 1: Blockchain Basics](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)_
 
-### Lesson 14: Hardhat NFTs
-Delve into the world of non-fungible tokens (NFTs) and create your own using Hardhat.
+## What is a Blockchain? What does a blockchain do?
 
-### Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)
-Build a full-stack NFT marketplace by combining NextJS with your NFT smart contracts.
-
-### Lesson 16: Hardhat Upgrades
-Understand the process of upgrading smart contracts using Hardhat.
-
-### Lesson 17: Hardhat DAOs
-Explore decentralized autonomous organizations (DAOs) and implement them using Hardhat.
-
-### Lesson 18: Security & Auditing
-Learn essential security practices and auditing techniques for smart contracts.
-
-## Closing Thoughts
-
-For additional information and resources, visit the [official repository](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/blob/main/README.md#closing-thoughts). Happy coding! 🚀
+- [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
+  - [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)
+- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
+  - [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin)
+- [What is a Smart Contract?](https://chain.link/education/smart-contracts)
+- [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo)
+- [Hybrid Smart Contracts](https://blog.chain.link/hybrid-smart-contracts-explained/)
+- [Blockchain Oracles](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72?source=friends_link&sk=d921a38466df8a9176ed8dd767d8c77d)
+- [Terminology](https://connect.comptia.org/content/articles/blockchain-terminology)
+- [Web3](https://en.wikipedia.org/wiki/Web3)
+- [What is a blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
