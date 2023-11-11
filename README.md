@@ -1,6 +1,6 @@
-# Web3, Full Stack Solidity, Smart Contract & Blockchain — Javascript Edition
+# Web3, Full Stack Solidity, Smart Contract & Blockchain (Javascript Edition)
 
-Welcome to the repository for the Ultimate Web3, Full Stack Solidity, and Smart Contract - Javascript Edition!
+Welcome to the repository for the Ultimate Web3, Full Stack Solidity, and Smart Contract JS course!
 
 All code references have both a javascript and a typescript edition.
 
