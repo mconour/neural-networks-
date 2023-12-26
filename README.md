@@ -1,6 +1,5 @@
 # Personal Asset Tokenization Platform
 
-## Project Overview
 The Personal Asset Tokenization Platform allows users to tokenize their personal assets, such as artwork, collectibles, or any valuable item, into digital tokens on the Ethereum Blockchain. This decentralized application (dApp) showcases asset digitization, smart contract interaction, and blockchain technology's power in transforming asset management and ownership.
 
 ### Features
