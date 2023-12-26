@@ -53,15 +53,11 @@ Contributions are what make the open-source community an amazing place to learn,
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name - [michaelconour@gmail.com](mailto:michaelconour@gmail.com)
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [https://github.com/mconour/personal-asset-tokenization](https://github.com/mconour/personal-asset-tokenization)
 
 ## Acknowledgements
 
